@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Student registry list</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js">
+        </script>
+    </head>
+    <body>
+        <center>
+            <h3 style="margin-top: 20px; margin-bottom: 20px;">
+                    List of students in my class
+            </h3>
+            <div>
+                <span>1.</span>
+                <input type="text" placeholder="Name of Student" id="nost1">
+                <br>
+                <span>2.</span>
+                <input type="text" placeholder="Name of Student" id="nost2">
+                <br>
+                <span>3.</span>
+                <input type="text" placeholder="Name of Student" id="nost3">
+                <br>
+                <span>4.</span>
+                <input type="text" placeholder="Name of Student" id="nost4">
+            </div>
+            <button onclick="submit()" id="submit_button">
+                Submit
+            </button>
+            <div id="display_name" style="font-weight: bold;"></div>
+            <button onclick="sorting()" id="sort_button">
+                Sort
+            </button>
+        </center>
+        
+    </body>
+</html>
